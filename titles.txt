@@ -1,0 +1,15 @@
+'''
+写一个python，要求将指定文件夹内符合以下关键字的所有文件复制到指定名称的文件夹
+'''
+“
+import os
+
+path = "/Users/qmac/书库"
+title_file = open("titles.txt", "w")
+
+for root, dirs, files in os.walk(path):
+    for file in files:
+        title_file.write(file + "\n")
+
+title_file.close()
+”
