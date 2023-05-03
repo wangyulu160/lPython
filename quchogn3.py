@@ -2,7 +2,7 @@ import os
 import hashlib
 from tqdm import tqdm  # 导入tqdm，用于显示进度条
 
-folder_path = "/Volumes/U3/books&paper只允许拷入复制---------books"
+folder_path = "/Volumes/U3/books&paper只允许拷入复制---------books"#你的路径
 checksums = {}
 
 total_files = 0
